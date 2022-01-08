@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import 'react-responsive-modal/styles.css';
 import {Modal} from 'react-responsive-modal';
 const Note = (props)=>{
     const [modal,setModal] = useState(false);
